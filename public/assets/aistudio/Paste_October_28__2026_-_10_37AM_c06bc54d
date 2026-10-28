@@ -1,0 +1,820 @@
+# PROJECT PROMPT: FUTURISTIC FASHION BRAND PORTFOLIO & INTERACTIVE LOOKBOOK
+
+## 1. Your Role
+
+Act as a world-class fashion art director, creative director, senior UI/UX designer, motion designer, and expert frontend developer.
+
+Your task is to design and build a complete, visually exceptional, modern, responsive, and interactive fashion brand portfolio website inspired by the futuristic web design reference below.
+
+**Figma design reference:**
+https://www.figma.com/community/file/1510588455428094314/how-to-create-futuristic-website-ui-in-figma-ux-design-tutorial?q_id=65cf443b-f642-4ee8-9110-a630b2f093f3
+
+First, inspect the reference design if access is available. Study its layout, visual hierarchy, typography, color palette, navigation, image composition, futuristic elements, transitions, and interaction patterns.
+
+Translate its design principles into a premium fashion portfolio and lookbook experience. Do not blindly reproduce a generic template. Adapt the design to the unique visual storytelling needs of fashion designers, independent fashion labels, fashion stylists, creative studios, and heritage fashion houses.
+
+If the reference cannot be accessed, do not pretend to have inspected it. Use the futuristic editorial art direction described in this prompt and continue building.
+
+## 2. Project Overview
+
+Create a fashion brand portfolio and digital lookbook platform that allows a fashion brand to present its identity, collections, campaigns, creative process, and artistic philosophy through an immersive website.
+
+This is primarily a **brand presentation and visual storytelling platform, not an e-commerce store**.
+
+The main goals are to:
+
+- Showcase fashion collections through immersive photography and editorial layouts.
+- Communicate the brand's identity, philosophy, and design language.
+- Present seasonal collections and curated lookbooks.
+- Highlight individual outfits, styling concepts, fabrics, silhouettes, and details.
+- Tell the story behind each collection.
+- Attract fashion editors, models, photographers, stylists, buyers, collaborators, and potential clients.
+- Make it easy for visitors to explore collections and contact the brand.
+- Establish a distinctive, memorable digital brand identity.
+
+The finished website should feel like an award-winning experimental fashion website created by a high-end creative studio.
+
+## 3. Brand Identity
+
+Use the following temporary brand identity, making it easy to customize later.
+
+Brand name: ATELIER NØIR
+
+Brand category: Contemporary avant-garde fashion and creative direction.
+
+Brand positioning: An independent fashion house exploring the relationship between futuristic silhouettes, architecture, identity, material, and contemporary culture.
+
+Brand personality:
+- Experimental
+- Artistic
+- Sophisticated
+- Minimalist
+- Futuristic
+- Bold
+- Emotionally expressive
+- Editorial rather than commercial
+
+Suggested tagline:
+
+"FORM. FUTURE. IDENTITY."
+
+Alternative hero statement:
+
+"WEAR THE UNIMAGINED."
+
+Brand philosophy:
+
+Fashion is not simply what we wear. It is a language of form, movement, identity, and imagination. Every collection explores new relationships between material, silhouette, and the human experience.
+
+Do not make the brand feel like a conventional clothing retailer. It should feel like an independent fashion house with a strong creative point of view.
+
+Use believable sample editorial copy throughout the website. Make all brand text, images, collection names, dates, and contact information straightforward to replace.
+
+## 4. Visual Design Direction
+
+Create a distinctive visual system that combines futuristic digital design with luxury fashion editorial art direction.
+
+The interface should balance futuristic experimentation with the sophistication and restraint of a premium fashion magazine.
+
+### Color palette
+
+Use a restrained, high-contrast palette:
+
+- Obsidian black: #08090B
+- Deep charcoal: #141519
+- Soft ivory: #F2F0EA
+- Muted silver: #A7A9AD
+- Electric lime accent: #D6FF3F
+- Optional cool blue accent: #8FAFFF
+
+Use dark surfaces as the primary visual environment, with ivory typography and carefully placed electric-lime accents.
+
+Allow some collection pages to use light backgrounds when that enhances the photography or collection identity.
+
+The accent color should be used sparingly for interactive indicators, small labels, hover states, and selected controls. Do not make the entire interface neon.
+
+### Typography
+
+Use a carefully selected combination of:
+
+- A bold, contemporary grotesk typeface for oversized headlines.
+- A clean sans-serif typeface for navigation, descriptions, labels, and body text.
+- An elegant editorial serif typeface for selected collection titles, quotes, or artistic statements.
+
+Possible fonts include Space Grotesk, Inter, and Cormorant Garamond, subject to availability.
+
+Use:
+- Extremely large, editorial hero typography.
+- Tight letter spacing on oversized headlines.
+- Small uppercase metadata labels.
+- Strong contrasts between headline sizes and supporting text.
+- Generous negative space.
+- Short, carefully written paragraphs.
+
+Typography must become part of the visual composition rather than simply serving as readable content.
+
+### Layout principles
+
+Use:
+- Asymmetrical editorial grids.
+- Full-bleed fashion photography.
+- Overlapping text and imagery where appropriate.
+- Large margins and deliberate negative space.
+- Horizontal image strips.
+- Vertical editorial image compositions.
+- Unexpected but intentional alignment.
+- Numbered collections and small metadata labels.
+- Thin divider lines.
+- Large typography partially interacting with images.
+- Grid-breaking compositions inspired by independent fashion magazines.
+
+Avoid repetitive card grids, excessive rounded corners, generic SaaS layouts, and oversized collections of floating UI cards.
+
+## 5. Homepage Structure
+
+Build a complete homepage with the following sections.
+
+### A. Preloader and opening sequence
+
+Create a short, elegant opening sequence.
+
+Display the brand name in the center of the screen, followed by a minimal progress indicator or animated typography.
+
+Possible sequence:
+1. A black background appears.
+2. The word "ATELIER NØIR" fades in.
+3. A thin electric-lime line expands across the screen.
+4. The main visual composition reveals itself.
+
+Keep the sequence brief and skippable. Do not make visitors wait unnecessarily or replay the full animation on every interaction.
+
+Respect reduced-motion preferences and ensure the site remains accessible if animation is disabled.
+
+### B. Navigation and header
+
+Create a minimalist, premium navigation system.
+
+Left:
+- ATELIER NØIR wordmark.
+
+Center or right:
+- Collections
+- Lookbook
+- Studio
+- Journal
+- Contact
+
+Additional controls:
+- Menu toggle on mobile.
+- Optional sound toggle only if sound is genuinely implemented.
+- Optional selected-collection indicator.
+
+The header should be transparent or visually integrated into the hero initially. It may become a subtle solid or blurred background after scrolling if that improves readability.
+
+Interactions:
+- Smooth anchor navigation.
+- Animated underline or restrained color transition on hover.
+- Clear keyboard focus states.
+- An elegant full-screen mobile menu.
+- A visible close control and Escape-key support for overlays.
+
+Avoid a conventional bulky navigation bar.
+
+### C. Hero section — the signature experience
+
+Make this the most visually impressive section on the website.
+
+Create a cinematic, near-full-screen fashion hero featuring a striking editorial photograph of a model wearing sculptural, avant-garde clothing.
+
+Composition:
+- Dark, atmospheric background.
+- A large model image occupying most of the viewport.
+- Bold typography positioned asymmetrically.
+- A small seasonal collection label.
+- Minimal navigation.
+- Subtle animated visual details.
+- A clear indication that the visitor can scroll.
+
+Suggested copy:
+
+SMALL LABEL:
+COLLECTION 001 / AUTUMN–WINTER 2026
+
+MAIN HEADLINE:
+"WEAR THE
+UNIMAGINED."
+
+SUPPORTING COPY:
+"An exploration of form, material, and identity beyond the expected."
+
+PRIMARY CTA:
+EXPLORE THE COLLECTION →
+
+SECONDARY CTA:
+DISCOVER OUR WORLD
+
+Include a small vertical label such as "INDEPENDENT FASHION / EST. 2024" as editable placeholder metadata.
+
+The model photography must be visually dominant. Use a strong composition, dramatic lighting, and architectural or experimental styling.
+
+Add subtle motion:
+- Headline elements reveal with staggered timing.
+- The hero image reveals through a smooth mask or fade.
+- Small metadata labels enter after the main title.
+- A restrained image scale or parallax effect responds to scrolling or pointer movement.
+
+Animations must remain smooth and should not interfere with reading or navigation.
+
+### D. Featured collection
+
+Section heading:
+"THE LATEST FORM"
+
+Supporting text:
+"A study in silhouette, movement, and material."
+
+Present the latest collection using a sophisticated asymmetrical editorial grid rather than ordinary product cards.
+
+Include:
+- One dominant portrait image.
+- One secondary landscape or detail image.
+- One close-up material or garment image.
+- Collection name and season.
+- A short creative description.
+- Collection number.
+- A "VIEW COLLECTION" link.
+
+Suggested collection:
+"NOCTURNE / 001"
+
+Description:
+"A nocturnal study of architectural silhouettes, layered materials, and restrained expression."
+
+Use different image proportions and deliberate spacing to create a magazine-like composition.
+
+On hover:
+- Images gently zoom or shift.
+- Collection metadata reveals or changes opacity.
+- A small directional arrow moves.
+- The entire interaction feels polished and intentional.
+
+Clicking the collection must open a dedicated collection detail page or an immersive collection experience.
+
+### E. Immersive lookbook gallery
+
+Section heading:
+"THE LOOKBOOK"
+
+Subtitle:
+"One collection. Multiple perspectives."
+
+Create an interactive gallery featuring six to ten editorial fashion photographs.
+
+The gallery should support:
+- Full-size image viewing.
+- Portrait-oriented and landscape imagery.
+- Mixed image proportions.
+- Optional horizontal scrolling on desktop.
+- A responsive grid on mobile.
+- Image captions and outfit numbers.
+- Previous and next navigation.
+- Keyboard navigation.
+- A close button for expanded images.
+
+When a visitor selects an image, open a cinematic lightbox overlay with:
+- Large image.
+- Image number, such as LOOK 01 / 08.
+- Garment or outfit title.
+- Short styling description.
+- Photographer and stylist credits, where available.
+- Previous and next controls.
+- Close button and Escape-key support.
+
+Add subtle transitions between images.
+
+The gallery should prioritize visual quality and make the clothing easy to examine. Do not obstruct the photographs with large text overlays.
+
+### F. Full-screen editorial statement
+
+Create a dramatic section separating the gallery from the rest of the page.
+
+Use a full-width photograph, abstract fashion image, or carefully composed monochrome visual.
+
+Overlay a short statement:
+
+"FASHION IS NOT THE FUTURE.
+
+IT IS HOW WE IMAGINE IT."
+
+Use oversized typography, restrained movement, and strong contrast.
+
+As the user scrolls, reveal the statement in stages. Maintain sufficient contrast between the text and background.
+
+The result should feel artistic and cinematic, not like a generic promotional banner.
+
+### G. Design philosophy
+
+Section title:
+"BEYOND THE SILHOUETTE"
+
+Explain the creative philosophy through three editorial principles:
+
+01 — FORM
+"We explore the boundaries of silhouette, proportion, and structure."
+
+02 — MATERIAL
+"We treat fabric, texture, and surface as essential parts of visual expression."
+
+03 — IDENTITY
+"We create visual narratives that challenge convention and celebrate individuality."
+
+Design each principle as a distinct typographic composition with a supporting image or material detail.
+
+Use scroll-triggered reveals and understated dividers.
+
+### H. Campaign spotlight
+
+Create a campaign feature that resembles a high-end fashion editorial.
+
+Include:
+- A large campaign photograph.
+- Campaign title.
+- Season and year.
+- A short editorial description.
+- Creative team credits.
+- A "VIEW CAMPAIGN" action.
+
+Suggested campaign:
+"AFTER THE STATIC"
+
+Description:
+"A visual exploration of stillness, movement, and the architecture of the human form."
+
+The campaign should open a dedicated page or modal containing additional photography and editorial information.
+
+### I. Studio and creative process
+
+Section title:
+"INSIDE THE STUDIO"
+
+Show how the brand develops its visual language.
+
+Include:
+- Concept sketches.
+- Fabric and material studies.
+- Moodboards.
+- Garment construction details.
+- Styling experiments.
+- Behind-the-scenes photography.
+
+Use a mix of large images, smaller supporting images, captions, and short paragraphs.
+
+Tell the story of how an initial concept becomes a finished collection.
+
+The section should feel authentic and editorial rather than like a corporate company profile.
+
+### J. Selected works and collaborations
+
+Section title:
+"SELECTED WORKS"
+
+Showcase a curated selection of creative projects, campaigns, collaborations, and styling work.
+
+Each entry should include:
+- Project title.
+- Category.
+- Year.
+- Featured image.
+- A short description.
+- Optional creative credits.
+
+Example categories:
+- Editorial
+- Campaign
+- Styling
+- Collaboration
+- Art Direction
+
+Use filter controls only if they are functional. Selecting a category should update the visible projects.
+
+Clicking a project should open its detailed project page or a fully designed overlay.
+
+### K. Brand manifesto
+
+Create a visually striking manifesto section.
+
+Use this sample text:
+
+"We believe clothing can become architecture.
+
+That texture can carry emotion.
+
+That a silhouette can challenge expectation.
+
+We create not to follow the future, but to imagine it differently."
+
+Present the text using oversized typography, generous spacing, and a restrained background treatment.
+
+Avoid adding unnecessary illustrations or decorative cards.
+
+### L. Contact and collaboration
+
+Section heading:
+"LET'S CREATE SOMETHING UNEXPECTED."
+
+Supporting text:
+"For editorial commissions, creative collaborations, styling inquiries, and selected projects, get in touch."
+
+Include:
+- Name.
+- Email address.
+- Inquiry type.
+- Project subject.
+- Message.
+- Submit button.
+
+Inquiry types:
+- Editorial commission
+- Fashion collaboration
+- Styling request
+- Press inquiry
+- General inquiry
+
+Add clear field labels, inline validation, success feedback, and error handling.
+
+If a backend or email service is available, connect the form properly. Otherwise, implement a clearly identified demo submission state and explain what must be configured before production. Never display a fake message implying an email was actually sent.
+
+Also include:
+- Contact email placeholder.
+- Instagram link.
+- Pinterest link.
+- Behance or other portfolio link where relevant.
+
+### M. Footer
+
+Create a minimalist footer featuring:
+- ATELIER NØIR wordmark.
+- Short brand statement.
+- Main navigation links.
+- Social links.
+- Contact email.
+- Copyright notice.
+- Back-to-top interaction.
+
+Add a small animated brand symbol or subtle line animation if it complements the design.
+
+The footer should feel like the natural conclusion of the editorial experience.
+
+## 6. Required Pages
+
+Create a coherent multi-page website rather than a homepage with decorative links that lead nowhere.
+
+### Page 1: Home
+
+The complete editorial homepage described above.
+
+### Page 2: Collections
+
+A curated archive of fashion collections.
+
+Include:
+- Collection thumbnails.
+- Collection name and season.
+- Collection number.
+- Year.
+- Short description.
+- Category or season filters.
+- Sorting by newest or oldest.
+- Links to individual collection pages.
+
+### Page 3: Collection detail
+
+Each collection should have its own page containing:
+- Collection title and season.
+- Hero image.
+- Creative concept.
+- Full lookbook gallery.
+- Individual outfit images.
+- Garment and material details where relevant.
+- Creative credits.
+- Related collections.
+- Contact or collaboration CTA.
+
+### Page 4: Lookbook
+
+A dedicated visual archive of individual fashion looks.
+
+Include:
+- Editorial image gallery.
+- Image detail overlays.
+- Look numbering.
+- Collection filters.
+- Responsive gallery layout.
+- Keyboard-accessible image navigation.
+
+### Page 5: Studio / About
+
+Tell the story of the fashion brand.
+
+Include:
+- Brand introduction.
+- Philosophy and values.
+- Designer or creative director profile.
+- Creative process.
+- Studio photographs.
+- Selected collaborations.
+- Contact CTA.
+
+### Page 6: Journal
+
+Create an editorial journal covering:
+- Fashion concepts.
+- Collection stories.
+- Material explorations.
+- Behind-the-scenes content.
+- Campaign notes.
+- Creative collaborations.
+
+Include article thumbnails, category labels, publication dates, reading time, and individual article pages.
+
+### Page 7: Contact
+
+Provide a dedicated contact page with:
+- Inquiry form.
+- Contact details.
+- Collaboration categories.
+- Social links.
+- Clear success and error states.
+
+All pages must share the same design system, navigation, typography, and interaction language.
+
+## 7. Advanced Interaction and Animation
+
+Use motion as an essential part of the brand identity, not as decoration added everywhere.
+
+Implement the following where appropriate:
+
+1. Smooth page transitions.
+2. Staggered hero typography reveals.
+3. Image masking and reveal animations.
+4. Subtle image zoom on hover.
+5. Scroll-triggered section reveals.
+6. A restrained parallax effect on selected photographs.
+7. Horizontal gallery movement.
+8. Animated navigation indicators.
+9. Smooth lightbox transitions.
+10. Animated collection titles.
+11. A custom cursor on desktop, only if it improves usability.
+12. A minimal scroll-progress indicator.
+13. Smooth return-to-top behavior.
+14. Micro-interactions on buttons and links.
+15. Loading placeholders or progressive image loading.
+
+Technical requirements:
+- Prefer performant CSS transforms and opacity animations.
+- Use Intersection Observer or an appropriate animation library for scroll-triggered effects.
+- Prevent horizontal overflow caused by animations.
+- Do not hijack normal scrolling.
+- Avoid continuous animation that drains battery or distracts from photography.
+- Disable or simplify nonessential motion for users who prefer reduced motion.
+- Keep navigation and important content usable before animations finish.
+
+If using a library such as GSAP or Framer Motion, use it purposefully and avoid unnecessary dependencies.
+
+## 8. Functional Requirements
+
+The website must be genuinely interactive, not just a static visual mockup.
+
+Implement:
+
+- Working navigation between all pages.
+- Responsive mobile menu.
+- Functional collection links.
+- Working gallery and lightbox.
+- Previous and next image controls.
+- Keyboard accessibility.
+- Functional collection filters.
+- Functional project category filters.
+- Journal article navigation.
+- Contact form validation.
+- Visible form success and failure states.
+- Working social and email links.
+- Back-to-top control.
+- Loading, empty, and error states where relevant.
+
+Do not add fake shopping carts, fake checkout screens, invented customer reviews, or unnecessary e-commerce features.
+
+Do not add login or registration unless there is a genuine content-management requirement.
+
+If a feature requires a backend, clearly distinguish implemented functionality from a frontend-only demonstration.
+
+## 9. Responsive Design
+
+Build mobile-first, then refine the desktop experience.
+
+Desktop:
+- Cinematic hero compositions.
+- Large editorial typography.
+- Wide image layouts.
+- Asymmetrical grids.
+- Sophisticated hover effects.
+
+Tablet:
+- Simplified editorial grids.
+- Adjusted headline sizes.
+- Reduced image overlap.
+- Comfortable spacing and navigation.
+
+Mobile:
+- Compact navigation with a working menu.
+- Properly cropped portrait photography.
+- Readable typography.
+- Single-column editorial sections where necessary.
+- Touch-friendly controls.
+- Swipe-friendly gallery navigation where appropriate.
+- No hover-only interactions.
+- No accidental horizontal overflow.
+- Fast image loading.
+
+Test the layouts at approximately 360px, 390px, 768px, 1024px, and 1440px widths.
+
+Do not simply shrink the desktop layout. Recompose sections intentionally for smaller screens.
+
+## 10. Photography and Visual Assets
+
+Fashion photography is one of the most important elements of this project.
+
+Use high-quality, editorial-style fashion imagery with:
+- Avant-garde garments.
+- Architectural silhouettes.
+- Experimental styling.
+- Dramatic studio lighting.
+- Interesting textures.
+- Strong model poses.
+- Artistic compositions.
+- Monochrome imagery mixed with selective color.
+- Diverse models and believable fashion campaigns.
+
+Use real image assets from sources you can access and are permitted to use, or generate original visuals if the platform supports it.
+
+Suitable sources may include licensed stock photography, approved image libraries, and original AI-generated fashion imagery.
+
+Do not use:
+- Broken image URLs.
+- Random unrelated stock photography.
+- Repeated copies of the same image across every section.
+- Low-resolution thumbnails as full-screen hero images.
+- Images that look like generic corporate business stock.
+- Images that misrepresent actual brand collaborators or designers.
+
+Assign each image a specific role: hero, full-length look, garment detail, campaign, material study, or behind-the-scenes image.
+
+Use consistent image ratios where needed, while retaining varied editorial compositions.
+
+Configure descriptive alt text, appropriate object positioning, lazy loading below the fold, and sensible responsive image sizes.
+
+## 11. Technical Implementation
+
+Choose the best implementation supported by the selected AI development platform.
+
+For a coded website, prefer:
+- React.
+- TypeScript.
+- Vite or the framework supported by the platform.
+- Tailwind CSS or modular CSS, depending on the existing environment.
+- Framer Motion or GSAP for carefully selected animations.
+- React Router or an equivalent routing solution for a multi-page application.
+
+Use reusable components and maintainable code.
+
+Suggested component structure:
+
+- SiteHeader
+- MobileNavigation
+- HeroSection
+- CollectionFeature
+- LookbookGallery
+- ImageLightbox
+- EditorialStatement
+- DesignPhilosophy
+- CampaignFeature
+- StudioSection
+- SelectedWorks
+- JournalGrid
+- ContactForm
+- SiteFooter
+- ScrollProgress
+
+Keep collection data, project data, journal entries, and image references separate from the main presentation components so the content can be updated easily.
+
+Do not force a backend into the project if the website only needs to showcase static editorial content.
+
+If persistent content management is required, recommend a suitable CMS or backend and explain the additional setup.
+
+Use semantic HTML, reusable styling tokens, accessible controls, clean routing, and production-quality error handling.
+
+## 12. Performance, Accessibility, and SEO
+
+Performance:
+- Optimize image delivery.
+- Lazy-load below-the-fold media.
+- Avoid unnecessarily large JavaScript bundles.
+- Prevent layout shifts by specifying image dimensions or aspect ratios.
+- Minimize excessive animation.
+- Avoid loading all full-resolution gallery images immediately.
+
+Accessibility:
+- Use semantic landmarks.
+- Ensure sufficient text contrast.
+- Support keyboard navigation.
+- Provide visible focus indicators.
+- Label form fields.
+- Use descriptive image alt text.
+- Support reduced motion.
+- Make overlays and mobile navigation accessible.
+
+SEO:
+- Provide unique page titles and meta descriptions.
+- Add Open Graph metadata.
+- Use meaningful page URLs.
+- Include a favicon and brand identity.
+- Add canonical URLs when appropriate.
+- Generate a sitemap and robots.txt for production deployment.
+- Use appropriate structured data only when it accurately describes the brand or content.
+
+## 13. Content and Brand Customization
+
+Create a simple, centralized way to replace:
+- Brand name.
+- Logo or wordmark.
+- Brand colors.
+- Typography.
+- Hero headline.
+- Hero photographs.
+- Collection names.
+- Collection seasons.
+- Lookbook images.
+- Designer biography.
+- Creative credits.
+- Journal articles.
+- Contact details.
+- Social media URLs.
+
+Use realistic placeholder content, but label invented brand history, dates, awards, and collaborators as placeholders. Do not fabricate real-world credentials.
+
+## 14. Final Design Quality Standards
+
+The final result must satisfy the following expectations:
+
+- It looks like a premium independent fashion house, not a template-based online store.
+- The Figma reference informs the visual language and futuristic interaction design.
+- Fashion imagery and editorial typography dominate the experience.
+- The page compositions have variety, rhythm, and intentional negative space.
+- The design is visually impressive without becoming chaotic.
+- Motion feels smooth and deliberate.
+- Every visible button or link has a meaningful action.
+- The mobile version is carefully composed.
+- Every required page is accessible through working navigation.
+- The website remains usable with animations disabled.
+- No placeholder buttons, broken routes, or fake functionality remain.
+- The code and content are organized for future expansion.
+
+## 15. Implementation Workflow
+
+Follow this sequence:
+
+**Phase 1 — Reference and creative direction**
+Inspect the Figma reference if accessible. Identify the visual principles that can be adapted to a fashion portfolio. Establish the color system, typography, image direction, and interaction language.
+
+**Phase 2 — Information architecture**
+Plan the navigation, page structure, collection data, journal content, and user journeys.
+
+**Phase 3 — Homepage design**
+Build the hero, featured collection, lookbook, editorial statement, philosophy, campaign, studio, selected works, contact, and footer.
+
+**Phase 4 — Additional pages**
+Implement the collections archive, collection detail, lookbook, studio, journal, article detail, and contact pages.
+
+**Phase 5 — Interactions**
+Add navigation, animations, gallery controls, filters, lightbox behavior, and form validation.
+
+**Phase 6 — Responsive refinement**
+Test desktop, tablet, and mobile layouts. Fix overflow, typography, image crops, and touch interactions.
+
+**Phase 7 — Quality assurance**
+Verify navigation, routes, controls, image loading, accessibility, performance, SEO, and form behavior.
+
+**Phase 8 — Final delivery**
+Provide the finished working website, organized source code, instructions for changing content and images, and deployment instructions.
+
+Do not stop after generating a static homepage mockup. Complete the functional, responsive website within the capabilities of the chosen platform.
+
+## Final instruction
+
+Think like a fashion art director first and a web developer second.
+
+The result should communicate a strong visual identity within the first few seconds. Every photograph, headline, transition, and layout decision should reinforce the brand's creative vision.
+
+Create something that feels futuristic, editorial, immersive, and unmistakably fashion-focused.
+
+**The goal is not to sell clothes directly. The goal is to make visitors experience the world of the brand.**

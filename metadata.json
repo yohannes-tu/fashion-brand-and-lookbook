@@ -1,0 +1,6 @@
+{
+  "name": "ATELIER NØIR — Futuristic Fashion Brand & Lookbook",
+  "description": "Contemporary avant-garde fashion house and digital lookbook exploring futuristic silhouettes, responsive materials, and architectural identity.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
